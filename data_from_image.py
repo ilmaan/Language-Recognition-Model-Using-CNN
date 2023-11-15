@@ -55,6 +55,7 @@ while(True):
 
         cv2.imwrite("%s/%s/%d.jpg"%(dataset_folder,a,i),gray_scale)
         i+=1
+        
         print(i)
         if i>300:
             break
